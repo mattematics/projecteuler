@@ -14,7 +14,7 @@ How many different ways can $2 be made using any number of coins?
 a = [1]*201
 
 coins = [2,5,10,20,50,100,200]
-# for each other coin, from lowest to highest
+# for each other coin
 for c in coins:
 	# for each value k up to $2
 	for k in xrange(201):
